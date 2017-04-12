@@ -16,6 +16,7 @@ namespace HelloGit.Controllers
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
+            //nothing to see
 
             return View();
         }
